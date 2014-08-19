@@ -15,7 +15,7 @@ public class ExtrasEndPoint {
   private String endpoint;
   private String button_text;
   private String css_class;
-  private Boolean enabled_in_gui;
+  private Boolean enabled_in_gui = false;
   protected JsonResponseBuilder jsonResponse = new JsonResponseBuilder();
 
   public String getResponseType() {
